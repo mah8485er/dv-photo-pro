@@ -7,10 +7,10 @@ const myArticles = [
     fbUrl: "https://www.facebook.com/WayhMaherBamrica",
     ar: {
       title: "كيف تختار صورة ناجحة ومطابقة لقرعة الهجرة العشوائية لأمريكا؟",
-      content: `تُعد الصورة الشخصية في برنامج الهجرة العشوائية لأمريكا (DV Lottery) العنصر الأكثر حساسية في استمارة التقديم. تشير الإحصائيات إلى أن آلاف الطلبات تُستبعد إلكترونياً قبل دخول السحب بسبب أخطاء بسيطة في أبعاد الصورة أو جودتها. لضمان قبول طلبك من المرة الأولى، يوفر لك موقع dv-photo-pro.com الأداة الأحدث للالتزام بالمعايير التقنية والفنية الصارمة التي تحددها وزارة الخارجية الأمريكية.
+      content: `تُعد الصورة الشخصية في برنامج الهجرة العشوائية لأمريكا (DV Lottery) العنصر الأكثر حساسية في استمارة التقديم. قد تؤدي الأخطاء في أبعاد الصورة أو جودتها إلى عدم استيفائها للمتطلبات. يساعدك موقع dv-photo-pro.com على ضبط الأبعاد التقنية ومراجعة بعض القياسات، لكن استخدام الأداة لا يضمن قبول الصورة أو الطلب.
 
 أولاً: الأبعاد والحجم القياسي
-يجب أن تكون الصورة مربعة الشكل تماماً بأبعاد 600×600 بكسل، وبصيغة JPEG ملونة. كما يشترط ألا يتجاوز حجم الملف الرقمي 240 كيلوبايت. استخدام أداة معالجة الصور الذكية في dv-photo-pro.com يضمن لك ضبط هذه الأبعاد بدقة دون التأثير على وضوح ملامح الوجه.
+يجب أن تكون الصورة مربعة الشكل تماماً بأبعاد 600×600 بكسل، وبصيغة JPEG ملونة. كما يشترط ألا يتجاوز حجم الملف الرقمي 240 كيلوبايت. تساعدك أداة الصور في dv-photo-pro.com على ضبط هذه الأبعاد، لكن يُنصح بمراجعة الصورة النهائية والتعليمات الرسمية قبل استخدامها.
 
 ثانياً: تمركز الرأس ومستوى العينين
 يجب أن يواجه المتقدم الكاميرا بشكل مباشر مع الحفاظ على تعبير وجه محايد، وعينين مفتوحتين، وفم مغلق. من الناحية الهندسية، يجب أن يشغل ارتفاع الرأس (من أعلى الشعر حتى أسفل الذقن) نسبة تتراوح بين 50% إلى 69% من إجمالي ارتفاع الصورة. كما يجب أن يقع مستوى العينين بين 56% و 69% مقاساً من الحافة السفلية للصورة.
@@ -20,10 +20,10 @@ const myArticles = [
     },
     en: {
       title: "How to Choose a Compliant Photo for the US Diversity Visa Lottery",
-      content: `The personal photograph in the US Diversity Visa (DV) Lottery program is the most critical element of your application. Statistics show that thousands of entries are automatically disqualified before the draw due to simple errors in photo dimensions or quality. To ensure your application is accepted on the first try, dv-photo-pro.com provides the ultimate tool to meet the strict technical standards set by the U.S. Department of State.
+      content: `The personal photograph in the US Diversity Visa (DV) Lottery program is the most critical element of your application. Photo errors can cause an entry not to meet the program's requirements. The tool can help you prepare the technical dimensions, but it cannot guarantee acceptance. The U.S. Department of State's current instructions remain authoritative.
 
 1. Standard Dimensions and File Size
-Your photo must be an exact square measuring 600×600 pixels, saved in color JPEG format. Additionally, the digital file size must not exceed 240 kilobytes (KB). Using the smart photo processor on dv-photo-pro.com guarantees these exact dimensions without compromising facial clarity.
+Your photo must be an exact square measuring 600×600 pixels, saved in color JPEG format. Additionally, the digital file size must not exceed 240 kilobytes (KB). The photo tool on dv-photo-pro.com can help resize the image to these dimensions. Always review the final photo and the current official requirements.
 
 2. Head Position and Eye Level
 The applicant must face the camera directly with a neutral facial expression, both eyes open, and mouth closed. Geometrically, the head height (measured from the top of the hair to the bottom of the chin) must be between 50% and 69% of the total image height. Furthermore, the eye level must fall between 56% and 69% measured from the bottom edge of the photo.
@@ -69,7 +69,7 @@ Key Rules for Photographing Babies and Newborns:
     fbUrl: "https://www.facebook.com/WayhMaherBamrica",
     ar: {
       title: "شروط صورة المحجبات وتجنب أخطاء التعديل الرقمي",
-      content: `تتساءل الكثير من المتقدمات عن ضوابط الحجاب والزينة في صورة قرعة الهجرة العشوائية لأمريكا، بالإضافة إلى استخدام تطبيقات الهواتف لتحسين الصورة. التوضيح الرسمي لهذه النقاط مع الفحص المحلي الآمن الذي يقدمه dv-photo-pro.com يحمي استمارتك من الرفض الفوري.
+      content: `تتساءل الكثير من المتقدمات عن ضوابط الحجاب والزينة في صورة قرعة الهجرة العشوائية لأمريكا، بالإضافة إلى استخدام تطبيقات الهواتف لتحسين الصورة. يساعدك فهم التعليمات الرسمية واستخدام أدوات الموقع الإرشادية على مراجعة الصورة، لكن ذلك لا يضمن قبول الطلب.
 
 ضوابط ارتداء الحجاب:
 • الأغراض الدينية فقط: يُسمح بارتداء الحجاب أو غطاء الرأس لأسباب دينية فقط، بشرط أن يُرتدى بشكل يومي معتاد.
@@ -77,12 +77,12 @@ Key Rules for Photographing Babies and Newborns:
 • لون الحجاب: يُفضل اختيار حجاب بلون داكن أو متوسط التباين (مثل الأسود، الكحلي، أو الرمادي) لتجنب اندماج لونه مع الخلفية البيضاء للصورة.
 
 خطورة الفلاتر وتغيير الخلفية رقمياً:
-• منع الفلاتر التجميلية: ترفض أنظمة الفحص الذكية أي صورة تم تعديلها ببرامج الفوتوشوب أو فلاتر الهواتف لتنعيم البشرة أو تغيير لون العينين، لأنها تغير القياسات البيومترية للوجه.
-• عدم قص الخلفية بالذكاء الاصطناعي: استخدام تطبيقات إزالة الخلفية واستبدالها بلون أبيض رقمي غالباً ما يترك حوافاً حادة أو غير طبيعية حول الشعر، وهو ما يكتشفه نظام الوزارة فوراً. لهذا السبب، يقوم موقع dv-photo-pro.com بفحص الخلفية دون تعديلها رقمياً للحفاظ على مطابقتها الطبيعية بنسبة 100%.`
+• منع الفلاتر التجميلية: قد تؤدي فلاتر التجميل أو التعديلات الرقمية إلى جعل الصورة غير مطابقة للمتطلبات الرسمية؛ لذلك يُنصح بتجنب تغيير ملامح الوجه.
+• عدم قص الخلفية بالذكاء الاصطناعي: استخدام تطبيقات إزالة الخلفية واستبدالها بلون أبيض رقمي غالباً ما يترك حوافاً حادة أو غير طبيعية حول الشعر، وقد تؤثر هذه التعديلات في مطابقة الصورة للمتطلبات. يقوم موقع dv-photo-pro.com بتقدير لون الخلفية دون تعديلها رقمياً، لكن هذا الفحص الإرشادي لا يضمن المطابقة.`
     },
     en: {
       title: "Hijab Rules and Avoiding Digital Editing Mistakes",
-      content: `Many female applicants ask about the regulations regarding religious head coverings, as well as the use of smartphone beauty apps. Understanding these official guidelines, combined with the 100% private local verification on dv-photo-pro.com, protects your entry from immediate disqualification.
+      content: `Many female applicants ask about the regulations regarding religious head coverings, as well as the use of smartphone beauty apps. Understanding the official guidelines and using the browser-based photo checks on dv-photo-pro.com can help you review your photo, but cannot guarantee acceptance.
 
 Guidelines for Wearing a Hijab:
 • Religious Purposes Only: Head coverings or hijabs are permitted strictly for religious reasons, provided they are worn daily as part of your regular attire.
@@ -90,8 +90,8 @@ Guidelines for Wearing a Hijab:
 • Hijab Color: It is recommended to wear a dark or medium-contrast hijab (such as black, navy blue, or gray) so it stands out clearly against the required white background.
 
 The Danger of Filters and AI Background Removal:
-• No Beauty Filters: Automated verification systems reject any photo altered with Photoshop or smartphone beauty filters that smooth skin or change eye color, as they distort biometric facial measurements.
-• Do Not Digitally Erase Backgrounds: Using AI apps to cut out your background and replace it with digital white often leaves unnatural, sharp edges around the hair. That is why dv-photo-pro.com analyzes your background tone without digitally altering it, preserving 100% natural compliance.`
+• No Beauty Filters: Beauty filters or digital alterations may make a photo fail to meet official requirements. Review the current U.S. Department of State instructions and avoid altering facial features.
+• Do Not Digitally Erase Backgrounds: Using AI apps to cut out your background and replace it with digital white often leaves unnatural, sharp edges around the hair. The site estimates the background tone without digitally altering it. This is a guidance-only check and does not guarantee compliance.`
     }
   }
 ];

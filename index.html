@@ -18,10 +18,13 @@
 <!-- Open Graph / Social Media -->
 <meta property="og:title" content="DV Photo Pro | محاكي اللوتري وأخصائي الصور">
 <meta property="og:description" content="تدرب على تقديم قرعة DV الأمريكية، جهز صورتك، وحول عنوانك العراقي. مجاناً وبدون رفع بيانات. Practice your DV entry, prepare your photo, and format your Iraqi address for free.">
-<meta property="og:url" content="https://dv-photo-pro.com/">
+<meta property="og:url" content="https://www.dv-photo-pro.com/">
 <meta property="og:site_name" content="DV Photo Pro">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://dv-photo-pro.com/og-image.jpg">
+<meta property="og:image" content="https://www.dv-photo-pro.com/favicon.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
 
 <!-- JSON-LD Schema Markup -->
 <script type="application/ld+json">
@@ -31,8 +34,8 @@
     {
       "@type": "WebApplication",
       "name": "DV Photo Pro",
-      "url": "https://dv-photo-pro.com/",
-      "description": "Free US DV Lottery practice simulator, photo specialist, and Iraqi address generator. All processing is 100% private and client-side.",
+      "url": "https://www.dv-photo-pro.com/",
+      "description": "Free US DV Lottery practice simulator, photo preparation tool, and Iraqi address generator. Photos are processed in the browser; address translation uses Google Translate.",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "All",
       "author": {
@@ -59,7 +62,7 @@
           "name": "Is this tool safe and private?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, your photo and data are processed 100% locally inside your browser. No photos or data are uploaded or stored on any server."
+            "text": "Your photo is processed in your browser and is not uploaded by the photo tool to DV Photo Pro servers. The Iraqi Address Generator sends the Arabic district or area text you enter to Google Translate for translation."
           }
         },
         {
@@ -67,7 +70,7 @@
           "name": "هل هذه الأداة آمنة وخاصة؟",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "نعم، تتم معالجة صورتك وبياناتك بنسبة 100% محلياً داخل متصفحك. لا يتم رفع أي صورة أو بيانات أو تخزينها على أي خادم."
+            "text": "تتم معالجة صورتك داخل متصفحك ولا ترفعها أداة الصور إلى خوادم DV Photo Pro. أما مولّد العناوين فيرسل نص المنطقة أو الحي الذي تدخله إلى Google Translate لترجمته."
           }
         }
       ]
@@ -730,7 +733,7 @@
     <h1 data-i18n="h1">US Green Card Photo Specialist</h1>
     <p data-i18n-html="intro">Capture or upload, align your face, and get a compliant 600&times;600 JPEG under 240&nbsp;KB.</p>
     <div class="badges">
-      <span class="badge" data-i18n="b1">🔒 100% Private</span>
+      <span class="badge" data-i18n="b1">🔒 Photo processed in your browser</span>
       <span class="badge" data-i18n="b2">⚡ Instant</span>
       <span class="badge" data-i18n="b3">✔ Free</span>
     </div>
@@ -741,7 +744,7 @@
       <a class="social-btn yt" href="https://www.youtube.com/@WayhMaherBamrica" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
       </a>
-      <a class="social-btn fb" href="https://www.facebook.com/profile.php?id=100007634176617" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+      <a class="social-btn fb" href="https://www.facebook.com/WayhMaherBamrica" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>
       </a>
       <a class="social-btn ig" href="https://www.instagram.com/wayhmaherbamrica/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
@@ -978,6 +981,7 @@
             <label for="districtInput" data-i18n="iraqiDistrictLabel">المنطقة أو الحي:</label>
             <input type="text" id="districtInput" data-i18n-attr="placeholder:iraqiDistrictPlaceholder" placeholder="مثال: مدينة الصدر، المنصور، الحسينية" required autocomplete="off">
             <div class="iraqi-trans-state" id="translationState" aria-live="polite"></div>
+            <p class="sub" data-i18n="iraqiTranslateNotice" style="font-size:12px;line-height:1.5;margin:6px 0 0;">Translation uses Google Translate. The Arabic area text you enter is sent to Google.</p>
           </div>
         </div>
 
@@ -1083,7 +1087,7 @@
           <span class="ico">🔒</span><span data-i18n="q1">Is this tool safe and private?</span>
           <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
         </summary>
-        <div class="acc-body"><p class="faq-a" data-i18n="a1">Yes, your photo is processed 100% locally inside your browser. No photos are uploaded or stored on any server.</p></div>
+        <div class="acc-body"><p class="faq-a" data-i18n="a1">Your photo is processed in your browser. Address translation sends the Arabic area text you enter to Google Translate.</p></div>
       </details>
       <details class="acc">
         <summary>
@@ -1439,6 +1443,21 @@
     </section>
   </div>
 
+  <div class="vpage" id="pageAbout" hidden>
+    <section class="card">
+      <h2 data-i18n="aboutH">About Us</h2>
+      <div style="font-size:14.5px;line-height:1.85;color:var(--navy-3);">
+        <p data-i18n-html="aboutP1"></p>
+        <p data-i18n-html="aboutP2"></p>
+        <p data-i18n-html="aboutP3"></p>
+        <p data-i18n-html="aboutP4"></p>
+      </div>
+      <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--line);text-align:center;">
+        <a href="#simulator" class="btn btn-emerald" style="text-decoration:none;" data-i18n="aboutCta">Explore the tools</a>
+      </div>
+    </section>
+  </div>
+
   <div class="vpage" id="pageContact" hidden>
     <section class="card contact-card">
       <h2 data-i18n="contactH">Contact Us</h2>
@@ -1471,12 +1490,14 @@
     </div>
     <div class="legal" data-i18n-html="legal">
       This tool is not affiliated with the U.S. Government or the Department of State.<br>
-      All processing happens locally in your browser. No photos are uploaded or stored.
+      Your photo is processed in your browser. Address translation sends the area text you enter to Google Translate.
     </div>
     <div class="legal-links">
       <button class="linkbtn" id="btnPrivacy" type="button" data-i18n="privacyLink">Privacy Policy</button>
       <span aria-hidden="true">•</span>
       <button class="linkbtn" id="btnTerms" type="button" data-i18n="termsLink">Terms of Use</button>
+      <span aria-hidden="true">•</span>
+      <button class="linkbtn" id="btnAbout" type="button" data-i18n="aboutH">About Us</button>
       <span aria-hidden="true">•</span>
       <button class="linkbtn" id="footerContactBtn" type="button" data-i18n="navContact">اتصل بنا</button>
       <span aria-hidden="true">•</span>
@@ -1536,7 +1557,7 @@
   var TARGET      = LIMIT_BYTES - SAFETY;
   var START_Q = 0.95, GOOD_MIN_Q = 0.35, HARD_MIN_Q = 0.08;
   var OUT_NAME    = 'dv-lottery-photo.jpg';
-  var SHARE_URL   = 'https://dv-photo-pro.com';
+  var SHARE_URL   = 'https://www.dv-photo-pro.com';
   var MAX_WORK    = 2000;
   var HEAD_MIN = 0.50, HEAD_MAX = 0.69, HEAD_TARGET = 0.60;
   var EYE_MIN = 0.56, EYE_MAX = 0.69, EYE_TARGET = 0.625;
@@ -1544,13 +1565,13 @@
   var I18N = {
     en: {
       docTitle: "DV Lottery Photo Specialist",
-      metaDesc: "Free DV Lottery photo specialist. Upload a photo from your gallery, align your face, and get a 600x600 JPEG under 240 KB. 100% private, processed in your browser.",
+      metaDesc: "Free DV Lottery photo tool. Prepare a 600×600 JPEG in your browser, practice with the DV simulator, and format Iraqi addresses. Address translation uses Google Translate.",
       langOther: "العربية",
       langAria: "Switch language to Arabic",
 
       h1: "US Green Card Photo Specialist",
       intro: "Choose a photo from your gallery, align three guide lines, and get a compliant <bdi dir='ltr'>600×600</bdi> JPEG under <bdi dir='ltr'>240&nbsp;KB</bdi>.",
-      b1: "🔒 100% Private", b2: "⚡ Instant", b3: "✔ Free",
+      b1: "🔒 Photo processed in your browser", b2: "⚡ Instant", b3: "✔ Free",
 
       acc1: "Official requirements checklist",
       r1: "<b>Format:</b> JPEG, exactly <b>600×600</b> pixels (square), under <b>240 KB</b>, in color.",
@@ -1573,7 +1594,7 @@
       dropHint: "or drag and drop a photo here",
       uploadTitle: "Choose from Device Gallery",
       uploadSub: "JPG, PNG, HEIC. Large photos are fine",
-      secure: "🔒 Your photo never leaves this device.",
+      secure: "🔒 Your photo is processed on this device.",
       digitalAlterWarn: "⚠️ Important: Please do not use photos with beauty filters or digital alterations. Rejected by system.",
       boardH: "Line alignment board",
       boardSub: "Drag the three lines: orange to the very top of your hair, green to your eyes, purple to the bottom of your chin.",
@@ -1594,7 +1615,7 @@
       closeBtn: "Close",
       privTitle: "Privacy Policy",
       termsTitle: "Terms of Use",
-      privBody: "<p class='upd'>Last updated: October 2026</p>\n<h3>1. Your photos stay on your device</h3>\n<p>DV Lottery Photo Specialist processes your picture entirely inside your own browser using the HTML5 Canvas. Your photo is never uploaded to a server, never stored by us and never shared with anyone. When you close or refresh the page, the photo is discarded.</p>\n<h3>2. Information we do not collect</h3>\n<p>There are no accounts or sign-ups. We do not ask for or collect your name, email address, phone number, identity documents, or any biometric template. The background and face-size checks are simple pixel measurements that run locally and are not recorded.</p>\n<h3>3. Data saved in your browser</h3>\n<p>The site remembers only your language choice (English or Arabic) in your browser's local storage so the page opens the way you left it. You can clear it at any time from your browser settings.</p>\n<h3>4. Advertising and cookies</h3>\n<p>This site may show ads served by Google AdSense. Google and its advertising partners may use cookies or similar identifiers to show ads based on your visits to this and other websites. You can manage or opt out of personalised ads in Google's Ads Settings and learn more in Google's advertising policies. Your photo is never made available to advertisers.</p>\n<h3>5. Search and site-ownership tools</h3>\n<p>The site owner verifies this website with Google Search Console, which provides aggregated search-performance information. It does not include your photos or personal details.</p>\n<h3>6. Third-party content and links</h3>\n<p>The page loads fonts from Google Fonts and may include links to, or an embedded video from, YouTube, Facebook, Instagram and the U.S. Department of State. Those services receive technical information such as your IP address when you load or open their content, and they are governed by their own privacy policies.</p>\n<h3>7. Children</h3>\n<p>The tool is intended for use by adults or by parents and guardians preparing a photo on behalf of a child. We do not knowingly collect information from children.</p>\n<h3>8. Changes to this policy</h3>\n<p>We may update this policy from time to time. The latest version is always available from the Privacy Policy link in the footer.</p>\n<h3>9. Contact</h3>\n<p>For questions about this policy, please use the social media channels linked at the top of this page.</p>\n<p class='upd'>This text is general information and is not legal advice.</p>",
+      privBody: "<p class='upd'>Last updated: November 2026</p>\n<h3>1. Photo processing</h3>\n<p>Your selected photo is processed in your browser using HTML5 Canvas. The photo tool does not upload the photo to DV Photo Pro's servers. The photo remains in your browser session unless you choose to download it.</p>\n<h3>2. Iraqi address translation</h3>\n<p>The Iraqi Address Generator may send the Arabic district or area text you enter to Google's public translation service (Google Translate) to obtain an English translation. Google may receive that text and technical information such as your IP address as part of the request. This request is made to Google, not to DV Photo Pro's own server. Please avoid entering sensitive personal information into the translation field.</p>\n<h3>3. Information and browser storage</h3>\n<p>The site does not require an account. It stores your language preference (English or Arabic) in your browser's local storage. The photo tool's measurements are calculated in your browser and are not intentionally saved by DV Photo Pro.</p>\n<h3>4. Advertising and cookies</h3>\n<p>This site may display ads served by Google AdSense. Google and its advertising partners may use cookies or similar identifiers, subject to their policies and your settings. Your selected photo is not sent to advertisers by the photo tool.</p>\n<h3>5. Third-party services and content</h3>\n<p>The site may load Google Fonts, Google Translate for address translation, Google AdSense, and YouTube content, and may link to Facebook, Instagram and the U.S. Department of State. When your browser contacts these services, they may receive technical information such as your IP address. Their own privacy policies apply.</p>\n<h3>6. Changes and contact</h3>\n<p>We may update this policy. For questions, please use the official social media channels linked on this website.</p>\n<p class='upd'>This policy is general information and is not legal advice.</p>",
       termsBody: "<p class='upd'>Last updated: October 2026</p>\n<h3>1. Acceptance of these terms</h3>\n<p>By using DV Lottery Photo Specialist you agree to these Terms of Use. If you do not agree, please do not use the tool.</p>\n<h3>2. What the tool does</h3>\n<p>The tool helps you crop and resize a photo to a 600 x 600 pixel JPEG under 240 KB (245,760 bytes) and shows measurements such as head size and eye level. It runs entirely in your browser.</p>\n<h3>3. No guarantee of acceptance</h3>\n<p>The head-size, eye-level and background indicators are automatic estimates meant to guide you. They do not guarantee that your photo will be accepted. Only the U.S. Department of State decides whether a photo is acceptable. Rules can change, so always check the latest instructions on the official website before you submit.</p>\n<h3>4. No affiliation</h3>\n<p>This website is independent. It is not affiliated with, endorsed by, or connected to the U.S. Government or the U.S. Department of State.</p>\n<h3>5. Your responsibilities</h3>\n<ul>\n<li>Use only a recent photo of yourself (or of a person you are legally authorised to apply for), taken within the last six months.</li>\n<li>Do not use the tool for anything unlawful or misleading.</li>\n<li>The tool does not alter, erase or replace your background and does not edit your face. Photos that have been digitally altered may be rejected, so please take your photo against a plain white wall.</li>\n</ul>\n<h3>6. Provided \"as is\"</h3>\n<p>The tool is free and is provided \"as is\" and \"as available\", without warranties of any kind. To the maximum extent permitted by law, the site owner is not liable for any loss, rejected application or missed deadline arising from the use of the tool or from reliance on its results.</p>\n<h3>7. Advertising and external links</h3>\n<p>The site may display advertisements and links to third-party websites. We do not control and are not responsible for third-party content, products or services.</p>\n<h3>8. Changes</h3>\n<p>We may change or discontinue the tool, or update these terms, at any time. Continued use after a change means you accept the updated terms.</p>\n<p class='upd'>This text is general information and is not legal advice.</p>",
       rateLbl: "Rate your experience to help us improve:",
       rateThanks: "Thank you for your rating!",
@@ -1629,11 +1650,11 @@
 
       footH: "Enjoying this free tool?",
       footP: "Know someone applying for the DV Lottery? Share this free tool with them.",
-      legal: "This tool is not affiliated with the U.S. Government or the Department of State.<br>All processing happens locally in your browser. No photos are uploaded or stored.",
+      legal: "This tool is not affiliated with the U.S. Government or the Department of State.<br>Your photo is processed in your browser. The Iraqi Address Generator sends the district or area text you enter to Google Translate for translation.",
 
       faqH: "Frequently asked questions",
       q1: "Is this tool safe and private?",
-      a1: "Yes, your photo is processed 100% locally inside your browser. No photos are uploaded or stored on any server.",
+      a1: "Your photo is processed in your browser and is not uploaded to DV Photo Pro's servers by the photo tool. The Iraqi Address Generator sends the Arabic district or area text you enter to Google Translate for translation.",
       q2: "Does this guarantee my photo will be accepted?",
       a2: "No tool can guarantee acceptance. This tool helps you align, crop and size your photo to <bdi dir='ltr'>600×600 px</bdi> under <bdi dir='ltr'>240 KB</bdi>. However, you must make sure you shoot against a real, plain white background with no glasses.",
       adLabel: "Advertisement",
@@ -1698,8 +1719,8 @@
       // Simulator
       navSimulator: "Practice Simulator",
       simTitle: "US DV Lottery Form Simulator | Practice for Free",
-      simWarning: "⚠️ This simulator is for practice only and is not affiliated with the U.S. Government. All data is processed locally in your browser and is not saved or sent to any server.",
-      simWarningText: "⚠️ Practice Simulator Only - Not affiliated with the U.S. Government. All data is processed locally in your browser and is never saved or transmitted to any server.",
+      simWarning: "⚠️ This simulator is for practice only and is not affiliated with the U.S. Government. Simulator entries are processed in your browser and are not submitted to the government.",
+      simWarningText: "⚠️ Practice Simulator Only - Not affiliated with the U.S. Government. Your practice entries are processed in your browser and are not submitted to the government.",
       simTimeLeft: "Time Remaining:",
       simStartBtn: "Begin Entry",
       simWelcome: "Welcome to the DV Lottery Practice Simulator. Use this tool to familiarize yourself with the official entry form without any pressure.",
@@ -1728,18 +1749,24 @@
       seoGuideA2: "<b>Name:</b> Writing the name in Arabic or not matching the passport. <b>Birth Date:</b> Swapping month and day. <b>Photo:</b> Using an old photo, non-white background, or wearing glasses.",
       seoGuideH3: "3. Formatting Iraqi addresses accurately",
       seoGuideA3: "Use the \"Address Generator\" to accurately convert your address from Arabic to English. Enter the governorate, district, and numbers for Mahalla, House, and Street. The tool formats it automatically.",
-      backToSim: "🔙 Back to Simulator"
+      backToSim: "🔙 Back to Simulator",
+      aboutH: "About Us",
+      aboutP1: "Welcome to <b>DV Photo Pro</b>, an independent platform offering free tools to help applicants prepare for the U.S. Diversity Visa (DV) program.",
+      aboutP2: "Our tools include a browser-based photo preparation tool, a DV practice simulator, an Iraqi address formatter with Google Translate support, and helpful articles. The photo tool uses guide lines that you position yourself; it does not automatically identify facial landmarks.",
+      aboutP3: "<b>Privacy:</b> Your photo is processed in your browser and is not uploaded to our servers by the photo tool. For address translation, the Arabic district or area text you enter is sent to Google Translate. See our Privacy Policy for details.",
+      aboutP4: "<b>Important:</b> DV Photo Pro is independent and is not affiliated with the U.S. Government or the U.S. Department of State. Our tools provide guidance only and do not guarantee photo or application acceptance. Always check the latest official instructions.",
+      aboutCta: "Explore the tools",
+      iraqiTranslateNotice: "Translation uses Google Translate. The Arabic area text you enter is sent to Google.",
     },
-
     ar: {
       docTitle: "أخصائي صور قرعة الغرين كارد الأمريكية",
-      metaDesc: "أداة مجانية لتجهيز صور قرعة الغرين كارد (DV). ارفع صورتك من معرض جهازك، واضبط وجهك، واحصل على صورة JPEG بقياس 600×600 وبحجم أقل من 240 KB. خصوصية تامة وتتم المعالجة داخل متصفحك.",
+      metaDesc: "أداة مجانية لتجهيز صور قرعة الهجرة الأمريكية داخل المتصفح، ومحاكي تدريبي للقرعة، ومولّد للعناوين العراقية. تستخدم ترجمة العناوين خدمة Google Translate.",
       langOther: "English",
       langAria: "التبديل إلى اللغة الإنجليزية",
 
       h1: "أخصائي صور قرعة الغرين كارد الأمريكية",
       intro: "اختر صورة من معرض جهازك، وحاذِ الخطوط الثلاثة، ثم احصل على صورة JPEG مطابقة للمواصفات بقياس <bdi dir='ltr'>600×600</bdi> وبحجم أقل من <bdi dir='ltr'>240&nbsp;KB</bdi>.",
-      b1: "🔒 خصوصية تامة 100%", b2: "⚡ فوري", b3: "✔ مجاني",
+      b1: "🔒 معالجة الصورة داخل متصفحك", b2: "⚡ فوري", b3: "✔ مجاني",
 
       acc1: "قائمة المتطلبات الرسمية",
       r1: "<b>الصيغة:</b> صورة JPEG بقياس <b><bdi dir='ltr'>600×600</bdi></b> بكسل بالضبط (مربعة)، وبحجم أقل من <b><bdi dir='ltr'>240 KB</bdi></b>، وملوّنة.",
@@ -1762,7 +1789,7 @@
       dropHint: "أو اسحب الصورة وأفلتها هنا",
       uploadTitle: "اختر من معرض الصور",
       uploadSub: "JPG وPNG وHEIC. الصور الكبيرة مدعومة",
-      secure: "🔒 صورتك لا تغادر جهازك أبداً.",
+      secure: "🔒 تتم معالجة صورتك على هذا الجهاز.",
       digitalAlterWarn: "⚠️ تنبيه هام: يرجى عدم استخدام صور تحتوي على فلاتر تجميل أو تعديل رقمي، لأنها ستُرفض.",
       boardH: "لوحة محاذاة الخطوط",
       boardSub: "اسحب الخطوط الثلاثة: البرتقالي إلى قمة شعرك تماماً، والأخضر إلى عينيك، والبنفسجي إلى أسفل ذقنك.",
@@ -1783,7 +1810,7 @@
       closeBtn: "إغلاق",
       privTitle: "سياسة الخصوصية",
       termsTitle: "شروط الاستخدام",
-      privBody: "<p class='upd'>آخر تحديث: أكتوبر 2026</p>\n<h3>1. صورك تبقى على جهازك</h3>\n<p>تعالج أداة «أخصائي صور قرعة الغرين كارد» صورتك بالكامل داخل متصفحك الخاص باستخدام HTML5 Canvas. لا يتم رفع صورتك إلى أي خادم، ولا نحتفظ بها، ولا نشاركها مع أي جهة. وعند إغلاق الصفحة أو تحديثها تُحذف الصورة.</p>\n<h3>2. المعلومات التي لا نجمعها</h3>\n<p>لا توجد حسابات أو تسجيل. نحن لا نطلب ولا نجمع اسمك أو بريدك الإلكتروني أو رقم هاتفك أو وثائق هويتك أو أي بصمة حيوية. وفحوصات الخلفية وحجم الوجه مجرد قياسات للبكسلات تتم محلياً ولا يتم تسجيلها.</p>\n<h3>3. البيانات المحفوظة في متصفحك</h3>\n<p>يحفظ الموقع اختيارك للغة (العربية أو الإنجليزية) فقط في التخزين المحلي لمتصفحك ليفتح بالطريقة التي تركته عليها. يمكنك حذفها في أي وقت من إعدادات المتصفح.</p>\n<h3>4. الإعلانات وملفات تعريف الارتباط</h3>\n<p>قد يعرض هذا الموقع إعلانات من خلال Google AdSense. وقد تستخدم Google وشركاؤها الإعلانيون ملفات تعريف الارتباط أو معرّفات مشابهة لعرض إعلانات بناءً على زياراتك لهذا الموقع ومواقع أخرى. يمكنك إدارة الإعلانات المخصصة أو إيقافها من «إعدادات الإعلانات» في Google، ومعرفة المزيد في سياسات الإعلان لدى Google. صورتك لا تتاح للمعلنين إطلاقاً.</p>\n<h3>5. أدوات البحث وملكية الموقع</h3>\n<p>يوثّق مالك الموقع ملكيته عبر Google Search Console الذي يوفر معلومات مجمّعة عن أداء البحث، ولا يتضمن صورك ولا بياناتك الشخصية.</p>\n<h3>6. المحتوى والروابط الخارجية</h3>\n<p>تحمّل الصفحة الخطوط من Google Fonts وقد تتضمن روابط إلى YouTube وFacebook وInstagram ووزارة الخارجية الأمريكية أو فيديو مضمّناً منها. تتلقى هذه الخدمات معلومات تقنية مثل عنوان IP عند تحميل محتواها أو فتحه، وتخضع لسياسات الخصوصية الخاصة بها.</p>\n<h3>7. الأطفال</h3>\n<p>الأداة مخصصة للبالغين أو للآباء والأوصياء الذين يجهزون صورة نيابةً عن طفل. ولا نجمع معلومات من الأطفال عن علم.</p>\n<h3>8. التعديلات على هذه السياسة</h3>\n<p>قد نحدّث هذه السياسة من وقت لآخر، وتجد أحدث نسخة دائماً عبر رابط «سياسة الخصوصية» في أسفل الصفحة.</p>\n<h3>9. التواصل</h3>\n<p>للاستفسار عن هذه السياسة يُرجى استخدام قنوات التواصل الاجتماعي الموضحة أعلى الصفحة.</p>\n<p class='upd'>هذا النص معلومات عامة وليس استشارة قانونية.</p>",
+      privBody: "<p class='upd'>آخر تحديث: نوفمبر 2026</p>\n<h3>1. معالجة الصور</h3>\n<p>تتم معالجة الصورة التي تختارها داخل متصفحك باستخدام تقنية HTML5 Canvas. أداة الصور لا ترفع الصورة إلى خوادم DV Photo Pro. وتبقى الصورة ضمن جلسة المتصفح ما لم تختر تنزيلها.</p>\n<h3>2. ترجمة العناوين العراقية</h3>\n<p>قد يرسل مولّد العناوين العراقية النص العربي الذي تدخله في حقل المنطقة أو الحي إلى خدمة الترجمة العامة من Google (Google Translate) للحصول على ترجمته الإنجليزية. قد تتلقى Google هذا النص ومعلومات تقنية مثل عنوان IP الخاص بك ضمن الطلب. يتم إرسال هذا الطلب إلى Google وليس إلى خوادم DV Photo Pro. يُرجى تجنب إدخال معلومات شخصية حساسة في حقل الترجمة.</p>\n<h3>3. المعلومات والتخزين في المتصفح</h3>\n<p>لا يتطلب الموقع إنشاء حساب. ويحفظ تفضيل اللغة (العربية أو الإنجليزية) في التخزين المحلي للمتصفح. تُحسب قياسات أداة الصور داخل المتصفح، ولا يقوم DV Photo Pro بحفظها عمداً.</p>\n<h3>4. الإعلانات وملفات تعريف الارتباط</h3>\n<p>قد يعرض الموقع إعلانات من Google AdSense. وقد تستخدم Google وشركاؤها ملفات تعريف الارتباط أو معرّفات مشابهة وفقاً لسياساتهم وإعداداتك. لا ترسل أداة الصور الصورة المختارة إلى المعلنين.</p>\n<h3>5. خدمات ومحتويات الجهات الخارجية</h3>\n<p>قد يستخدم الموقع Google Fonts وGoogle Translate لترجمة العناوين وGoogle AdSense ومحتوى YouTube، كما قد يتضمن روابط إلى Facebook وInstagram ووزارة الخارجية الأمريكية. عند اتصال المتصفح بهذه الخدمات، قد تتلقى معلومات تقنية مثل عنوان IP. وتسري سياسات الخصوصية الخاصة بهذه الجهات.</p>\n<h3>6. التغييرات والتواصل</h3>\n<p>قد نحدّث سياسة الخصوصية من وقت لآخر. وللاستفسارات، يُرجى استخدام قنوات التواصل الرسمية المرتبطة بهذا الموقع.</p>\n<p class='upd'>هذه السياسة معلومات عامة وليست استشارة قانونية.</p>",
       termsBody: "<p class='upd'>آخر تحديث: أكتوبر 2026</p>\n<h3>1. قبول الشروط</h3>\n<p>باستخدامك أداة «أخصائي صور قرعة الغرين كارد» فإنك توافق على شروط الاستخدام هذه. وإذا لم توافق عليها فيرجى عدم استخدام الأداة.</p>\n<h3>2. وظيفة الأداة</h3>\n<p>تساعدك الأداة على قص صورتك وتغيير حجمها إلى صورة JPEG بقياس 600 × 600 بكسل وبحجم أقل من 240 كيلوبايت (245,760 بايت)، وتعرض قياسات مثل حجم الرأس ومستوى العينين. وتعمل بالكامل داخل متصفحك.</p>\n<h3>3. لا ضمان بقبول الصورة</h3>\n<p>مؤشرات حجم الرأس ومستوى العينين والخلفية هي تقديرات تلقائية للإرشاد فقط، ولا تضمن قبول صورتك. وحدها وزارة الخارجية الأمريكية تقرر ما إذا كانت الصورة مقبولة. وقد تتغير القواعد، لذا تأكد دائماً من أحدث التعليمات على الموقع الرسمي قبل التقديم.</p>\n<h3>4. عدم الارتباط بأي جهة</h3>\n<p>هذا الموقع مستقل، وغير تابع لحكومة الولايات المتحدة أو وزارة الخارجية الأمريكية، ولا تؤيده ولا ترتبط به.</p>\n<h3>5. مسؤولياتك</h3>\n<ul>\n<li>استخدم صورة حديثة لك فقط (أو لشخص مخوّل لك قانونياً بالتقديم عنه)، ملتقطة خلال آخر ستة أشهر.</li>\n<li>لا تستخدم الأداة في أي غرض غير قانوني أو مضلِّل.</li>\n<li>لا تقوم الأداة بتعديل الخلفية أو إزالتها أو استبدالها، ولا تعدّل ملامح وجهك. وقد تُرفض الصور المعدّلة رقمياً، لذا التقط صورتك أمام جدار أبيض سادة.</li>\n</ul>\n<h3>6. الأداة مقدَّمة «كما هي»</h3>\n<p>الأداة مجانية وتُقدَّم «كما هي» و«حسب التوفر» دون أي ضمانات من أي نوع. وبأقصى حد يسمح به القانون، لا يتحمل مالك الموقع أي مسؤولية عن أي خسارة أو رفض لطلب أو فوات موعد ناتج عن استخدام الأداة أو الاعتماد على نتائجها.</p>\n<h3>7. الإعلانات والروابط الخارجية</h3>\n<p>قد يعرض الموقع إعلانات وروابط إلى مواقع تابعة لجهات خارجية. ونحن لا نتحكم في محتوى الجهات الخارجية أو منتجاتها أو خدماتها ولا نتحمل مسؤوليتها.</p>\n<h3>8. التعديلات</h3>\n<p>يجوز لنا تغيير الأداة أو إيقافها أو تحديث هذه الشروط في أي وقت. واستمرارك في الاستخدام بعد التعديل يعني قبولك للشروط المحدّثة.</p>\n<p class='upd'>هذا النص معلومات عامة وليس استشارة قانونية.</p>",
       rateLbl: "قيّم تجربتك مع الأداة لمساعدتنا على الاستمرار:",
       rateThanks: "شكراً لتقييمك!",
@@ -1818,11 +1845,11 @@
 
       footH: "هل أعجبتك هذه الأداة المجانية؟",
       footP: "هل تعرف شخصاً يتقدّم لقرعة DV؟ شارك معه هذه الأداة المجانية.",
-      legal: "هذه الأداة غير تابعة لحكومة الولايات المتحدة أو وزارة الخارجية.<br>تتم جميع المعالجات محلياً داخل متصفحك، ولا يتم رفع أي صورة أو تخزينها.",
+      legal: "هذه الأداة غير تابعة لحكومة الولايات المتحدة أو وزارة الخارجية.<br>تتم معالجة الصورة داخل متصفحك. ويرسل مولّد العناوين العراقية نص المنطقة أو الحي الذي تدخله إلى Google Translate لترجمته.",
 
       faqH: "الأسئلة الشائعة",
       q1: "هل هذه الأداة آمنة وخاصة؟",
-      a1: "نعم، تتم معالجة صورتك بنسبة 100% محلياً داخل متصفحك. لا يتم رفع أي صورة أو تخزينها على أي خادم.",
+      a1: "تتم معالجة صورتك داخل متصفحك، ولا ترفعها أداة الصور إلى خوادم DV Photo Pro. أما مولّد العناوين العراقية فيرسل نص المنطقة أو الحي الذي تدخله إلى Google Translate لترجمته.",
       q2: "هل تضمن هذه الأداة قبول صورتي؟",
       a2: "لا يمكن لأي أداة ضمان القبول. تساعدك هذه الأداة على ضبط صورتك وقصّها وتحجيمها إلى <bdi dir='ltr'>600×600 px</bdi> وبحجم أقل من <bdi dir='ltr'>240 KB</bdi>. ومع ذلك، عليك التأكد من التقاطها أمام خلفية بيضاء سادة حقيقية ودون نظارات.",
       adLabel: "مساحة إعلانية",
@@ -1887,8 +1914,8 @@
       // Simulator
       navSimulator: "محاكي التقديم",
       simTitle: "محاكي استمارة اللوتري الأمريكي | تدرب على التقديم في القرعة مجاناً",
-      simWarning: "⚠️ هذا المحاكي للتدريب فقط وغير تابع للحكومة الأمريكية - جميع البيانات تُعالج محلياً في متصفحك ولا يتم حفظها أو إرسالها لأي خادم.",
-      simWarningText: "⚠️ هذا المحاكي للتدريب فقط وغير تابع للحكومة الأمريكية - جميع البيانات تُعالج محلياً في متصفحك ولا يتم حفظها أو إرسالها لأي خادم.",
+      simWarning: "⚠️ هذا المحاكي للتدريب فقط وغير تابع للحكومة الأمريكية. تتم معالجة بيانات التدريب داخل متصفحك ولا تُرسل إلى الحكومة.",
+      simWarningText: "⚠️ محاكي للتدريب فقط وغير تابع للحكومة الأمريكية. تتم معالجة بيانات التدريب داخل متصفحك ولا تُرسل إلى الحكومة.",
       simTimeLeft: "الوقت المتبقي:",
       simStartBtn: "ابدأ التقديم",
       simWelcome: "مرحباً بك في محاكي التقديم التجريبي. استخدم هذه الأداة للتعرف على الاستمارة الرسمية دون أي ضغط.",
@@ -1918,7 +1945,14 @@
       seoGuideA2: "<b>الاسم:</b> كتابة الاسم بالعربية أو بشكل غير مطابق للجواز. <b>تاريخ الميلاد:</b> عكس الشهر واليوم. <b>الصورة:</b> استخدام صورة قديمة، أو خلفية غير بيضاء، أو وجود نظارات.",
       seoGuideH3: "3. تنسيق العنوان العراقي بدقة",
       seoGuideA3: "استخدم أداة \"مولد العناوين\" لتحويل عنوانك من العربية إلى الإنجليزية بدقة. اكتب اسم المحافظة، المنطقة، وأرقام المحلة والدار والزقاق. الأداة تنسقها تلقائياً.",
-      backToSim: "🔙 العودة إلى المحاكي"
+      backToSim: "🔙 العودة إلى المحاكي",
+      aboutH: "من نحن",
+      aboutP1: "مرحباً بك في <b>DV Photo Pro</b>، منصة مستقلة تقدم أدوات مجانية لمساعدة المتقدمين على الاستعداد لبرنامج الهجرة العشوائية الأمريكي (DV).",
+      aboutP2: "تشمل أدواتنا تجهيز الصور داخل المتصفح، ومحاكي تدريب لقرعة DV، ومولّد تنسيق العناوين العراقية الذي يستعين بـ Google Translate، بالإضافة إلى مقالات إرشادية. تعتمد أداة الصور على خطوط إرشادية يحدد المستخدم مواضعها بنفسه، ولا تتعرف تلقائياً على معالم الوجه.",
+      aboutP3: "<b>الخصوصية:</b> تتم معالجة صورتك داخل متصفحك ولا ترفعها أداة الصور إلى خوادمنا. أما ترجمة العناوين، فيُرسل نص المنطقة أو الحي الذي تدخله باللغة العربية إلى Google Translate. راجع سياسة الخصوصية لمعرفة التفاصيل.",
+      aboutP4: "<b>تنبيه مهم:</b> DV Photo Pro منصة مستقلة وغير تابعة لحكومة الولايات المتحدة أو وزارة الخارجية الأمريكية. تقدم أدواتنا إرشادات ولا تضمن قبول الصورة أو الطلب. راجع دائماً التعليمات الرسمية الأحدث.",
+      aboutCta: "استكشف الأدوات",
+      iraqiTranslateNotice: "تستخدم الترجمة خدمة Google Translate، ويُرسل نص المنطقة الذي تدخله إلى Google."
     }
   };
 
@@ -2590,7 +2624,7 @@
 
   /* ================= VIRTUAL PAGE NAVIGATION (Updated to include SEO Guide) ================= */
   (function virtualPages() {
-    var PAGES = ['pageHome', 'pageAddress', 'pageArticles', 'pageSimulator', 'pageContact', 'pageSeoGuide'];
+    var PAGES = ['pageHome', 'pageAddress', 'pageArticles', 'pageSimulator', 'pageContact', 'pageSeoGuide', 'pageAbout'];
     var tabs = Array.prototype.slice.call(document.querySelectorAll('.nav-tab[data-page]'));
     
     function showPage(id) {
@@ -2618,6 +2652,7 @@
         else if (hash === 'simulator') targetPageId = 'pageSimulator';
         else if (hash === 'seo-guide') targetPageId = 'pageSeoGuide';
         else if (hash === 'contact') targetPageId = 'pageContact';
+        else if (hash === 'about') targetPageId = 'pageAbout';
 
         showPage(targetPageId);
     }
@@ -2631,9 +2666,12 @@
       });
     });
 
-    // ربط زر اتصل بنا في الفوتر
+    // ربط أزرار الفوتر بالصفحات ضمن نظام التنقل الأصلي
     document.getElementById('footerContactBtn')?.addEventListener('click', () => {
       window.location.hash = 'contact';
+    });
+    document.getElementById('btnAbout')?.addEventListener('click', () => {
+      window.location.hash = 'about';
     });
 
     // ربط زر فتح دليل SEO
